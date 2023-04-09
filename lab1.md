@@ -2,13 +2,13 @@
 
 ## INSTALLING VSCODE
 
-In order to install VScode, go to this link, https://code.visualstudio.com/ , and look for the version that fits your computer's operating system. Follow the directions and try opening the app. The app should look similar to this:
+In order to install VScode, go to this link, [VScode](https://code.visualstudio.com/) , and look for the version that fits your computer's operating system. Follow the directions and try opening the app. The app should look similar to this:
 ![Image](Screen Shot 2023-04-06 at 10.24.26 AM.png)
 If it does, congrats! If not, try rereading the directions and make sure you clicked the correct version.
 
 ## REMOTELY CONNECTING
 
-Before moving on, if you are on Windows, please download git first. Here is the link: https://gitforwindows.org/ . After it is installed, go to this link: https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994 and set your default terminal to use git bash on VScode.
+Before moving on, if you are on Windows, please download git first. Here is the link: [Git for Windows](https://gitforwindows.org/) . After it is installed, go to this link: [How to use bash on Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) and set your default terminal to use git bash on VScode.
 
 After you have completed the above steps, open up a terminal in VScode. To open a terminal, you can either do ctrl or command + ' or click on terminal then new terminal menu option. 
 
