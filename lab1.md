@@ -22,7 +22,11 @@ but DO NOT COPY AND PASTE THIS! You have to replace the zz with the letters corr
 
 ![Image](Screen Shot 2023-04-06 at 5.50.13 PM.png)
 
-After writing ssh cs15lsp23zz@ieng6.ucsd.edu and replacing zz with your letters, a message may pop up in the terminal that mentions the authenticity of host...and asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Type yes into the terminal and press enter. It will then ask for your password.
+After writing
+```
+ssh cs15lsp23zz@ieng6.ucsd.edu 
+```
+and replacing zz with your letters, a message may pop up in the terminal that mentions the authenticity of host...and asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Type yes into the terminal and press enter. It will then ask for your password.
 
 **NOTE:** When typing in your password, no letters will show up on the screen. Just know that it is being typed into the terminal, it just isn't being displayed on the screen. 
 
@@ -34,8 +38,9 @@ It should look like this:
 ## TRYING SOME COMMANDS
 
 When your screen looks like the image above, you can type commands into the terminal. Some commands you can type are:
-
+```
 - cd ~
+```
 - cd
 - ls -lat
 - ls -a
