@@ -14,7 +14,11 @@ After you have completed the above steps, open up a terminal in VScode. To open 
 
 ![Image](Screen Shot 2023-04-09 at 4.40.05 PM.png)
 
-In the terminal, write ssh cs15lsp23zz@ieng6.ucsd.edu but DO NOT COPY AND PASTE THIS! You have to replace the zz with the letters corresponding to your course-specific account. If you don't know the letters, go to this link: [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) and enter your UCSD username and assigned student ID. Make sure you're looking at the letters on the account for CSE15L. 
+In the terminal, write:
+'''
+ssh cs15lsp23zz@ieng6.ucsd.edu 
+'''
+but DO NOT COPY AND PASTE THIS! You have to replace the zz with the letters corresponding to your course-specific account. If you don't know the letters, go to this link: [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) and enter your UCSD username and assigned student ID. Make sure you're looking at the letters on the account for CSE15L. 
 
 ![Image](Screen Shot 2023-04-06 at 5.50.13 PM.png)
 
