@@ -38,8 +38,9 @@ It should look like this:
 ## TRYING SOME COMMANDS
 
 When your screen looks like the image above, you can type commands into the terminal. Some commands you can type are:
+- 
 ```
-- cd ~
+cd ~
 ```
 - cd
 - ls -lat
