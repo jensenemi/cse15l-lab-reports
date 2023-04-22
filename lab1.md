@@ -43,7 +43,8 @@ When your screen looks like the image above, you can type commands into the term
 - ``` ls -lat ```
 - ``` ls -a ```
 ![Image](Screen Shot 2023-04-06 at 6.19.19 PM.png)
--```ls <directory> ``` where ```<directory>``` is ```/home/linux/ieng6/cs15lsp23/cs15lsp23abc```, where the ```abc``` is one of the other group members’ username
+
+- ```ls <directory> ``` where ```<directory>``` is ```/home/linux/ieng6/cs15lsp23/cs15lsp23abc```, where the ```abc``` is one of the other group members’ username
   (To find other group members' usernames, do ls ..) 
 - ``` cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ ```
 - ``` cat /home/linux/ieng6/cs15lsp23/public/hello.txt ```
