@@ -9,7 +9,7 @@ When I put the request ```/add-message?s=Hello```, the page shows this:
 
 ![Image](Screen Shot 2023-04-22 at 9.39.49 PM)
 
-When I put the request '''/add-message?s=How are you```, the page updates to this:
+When I put the request ```/add-message?s=How are you```, the page updates to this:
 
 ![Image](Screen Shot 2023-04-22 at 9.45.48 PM)
 
