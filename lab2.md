@@ -3,9 +3,14 @@
 ## Part 1
 For my web server ```StringServer```, this is my code:
 
-[Image!](Screen Shot 2023-04-22 at 9.50.16 PM.png)
+![Image](Screen Shot 2023-04-22 at 9.50.16 PM.png)
 
-idk
+When I put the request ```/add-message?s=Hello```, the page shows this:
+
+![Image](Screen Shot 2023-04-22 at 9.39.49 PM)
+
+When I put the request '''/add-message?s=How are you```, the page updates to this:
+
 ## Part 2
 
 ## Part 3
