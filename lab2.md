@@ -20,5 +20,35 @@ The ```public String handleRequest(URI url)``` method is called when I put the r
 ## Part 2
 In the ```ArrayExamples.java``` file from lab 3, there is a bug in the ```static int[] reversed(int[] arr)``` method. Here is the code given:
 
+![Image](Screen Shot 2023-04-23 at 12.31.56 AM.png)
+
+An example of a failure-inducing input for the buggy program is:
+```
+@Test
+  public void test1Reversed() {
+    int[] input1 = {1, 2, 3, 4, 5};
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input1));
+  }
+```
+When the program is run, the output in the terminal tells us that one of the JUnit tests failed. Here is part of the error message:
+```
+There was 1 failure:
+1) test1Reversed(ArrayTests)
+arrays first differed at element [0]; expected:<5> but was:<0>
+```
+
+As you can see, the JUnit test failed as the wrong value at element[0] was returned. 
+
+An example of an input that doesn't induce a failure is:
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+This JUnit test does not fail or have any errors.
+
+Here is a screenshot of the symptom (the output of running the tests):
 
 ## Part 3
