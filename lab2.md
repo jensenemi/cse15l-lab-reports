@@ -51,4 +51,31 @@ This JUnit test does not fail or have any errors.
 
 Here is a screenshot of the symptom (the output of running the tests):
 
+![Image](Screen Shot 2023-04-23 at 12.48.36 AM.png)
+
+As for the bug, here is the code before it was fixed:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```  
+
+Here is the code after it was fixed:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+Now, when the JUnit tests are run, this is what appears in the terminal:
+
+
+
 ## Part 3
