@@ -3,7 +3,7 @@
 ## Part 1
 For my web server ```StringServer```, this is my code:
 
-![Image](Screen Shot 2023-04-22 at 11.47.56 PM.png)
+![Image](Screen Shot 2023-04-22 at 11.50.02 PM.png)
 
 When I put the request ```/add-message?s=Hello```, the page shows this:
 
