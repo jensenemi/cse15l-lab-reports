@@ -95,3 +95,4 @@ for(int i = 0; i < arr.length; i += 1) {
 it reversed the values of ```arr``` by placing them into ```newArray``` and then returning the ```newArray```.
 
 ## Part 3
+In lab during week 2, I learned a lot about ports and the ieng6 computers and how multiple people couldn't use the same port and same computer at the same time or else it would cause an error. I also learned and thought it was interesting how we were able to access each others' web servers/pages.
