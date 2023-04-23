@@ -15,6 +15,8 @@ When I put the request ```/add-message?s=How are you```, the page updates to thi
 
 ![Image](Screen Shot 2023-04-22 at 9.45.48 PM.png)
 
+The ```public String handleRequest(URI url)``` method is called when I put the request ```/add-message?s=How are you```. The relevant argument to the ```handleRequest``` method is ```URI url```. On line 5, I initialized a variable called ```string``` which has type ```String``` and the value ```""```. Without this initialization, the page shows "404 Not Found!". The value of ```string``` changes when ```/add-message?s=How are you``` is requested. Since the request ```/add-message?s=How are you``` was inputted after the first request ```/add-message?s=Hello```, the ```string``` field changed from "" to "Hello" to "Hello" and "How are you". As you can see on line 14, the ```string``` field keeps adding new lines of words, depending on what is in the request.
+
 ## Part 2
 
 ## Part 3
