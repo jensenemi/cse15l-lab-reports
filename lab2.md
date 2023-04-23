@@ -76,6 +76,22 @@ static int[] reversed(int[] arr) {
 ```
 Now, when the JUnit tests are run, this is what appears in the terminal:
 
+![Image](Screen Shot 2023-04-23 at 12.53.29 AM.png)
 
+In the broken code, the method was changing the elements of the wrong array as well as returning the wrong array. By changing the last few lines of the code from:
+```
+for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+```
+to
+```
+for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+```
+it reversed the values of ```arr``` by placing them into ```newArray``` and then returning the ```newArray```.
 
 ## Part 3
