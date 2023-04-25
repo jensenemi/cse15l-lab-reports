@@ -1,9 +1,15 @@
 # Lab Report 2 - Servers and Bugs
 
 ## Part 1
-For my web server ```StringServer```, this is my code:
+For my web server ```StringServer```, this is my code in the ```StringServer.java``` file:
 
 ![Image](Screen Shot 2023-04-22 at 11.50.02 PM.png)
+
+This is the code in the ```Server.java``` file (taken from Week 2's Lab Assignment):
+
+![Image](Screen Shot 2023-04-24 at 6.46.20 PM.png)
+
+![Image](Screen Shot 2023-04-24 at 6.45.31 PM.png)
 
 When I put the request ```/add-message?s=Hello```, the page shows this:
 
