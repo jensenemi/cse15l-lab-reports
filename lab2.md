@@ -43,7 +43,7 @@ There was 1 failure:
 arrays first differed at element [0]; expected:<5> but was:<0>
 ```
 
-As you can see, the JUnit test failed as the wrong value at element[0] was returned. 
+As you can see, the JUnit test failed as the wrong value at ```element[0]``` was returned. 
 
 An example of an input that doesn't induce a failure is:
 ```
