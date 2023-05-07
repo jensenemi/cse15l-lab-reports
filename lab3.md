@@ -54,8 +54,6 @@ For the third command-line option, ```-v```:
 ```
 [cs15lsp23fv@ieng6-202]:folder:426$ grep -v "they" technical/911report/preface.txt  
 
-    
-        
             PREFACE
             We present the narrative of this report and the recommendations that flow from it to
                 the President of the United States, the United States Congress, and the American
@@ -161,8 +159,6 @@ For the third command-line option, ```-v```:
 ```
 [cs15lsp23fv@ieng6-202]:folder:429$ grep -v "they" technical/911report/chapter-2.txt
 
-    
-        
             THE FOUNDATION OF THE NEW TERRORISM
             A DECLARATION OF WAR
             In February 1998, the 40-year-old Saudi exile Usama Bin Ladin and a fugitive Egyptian
@@ -1086,4 +1082,36 @@ For the third command-line option, ```-v```:
                 the Americans to liberate the holy places "is considered a crime,"he said,"let
                 history be a witness that I am a criminal."
 ```
+While using the command ```grep -v``` followed by a string and name of a text file, it prints the lines that don't have the specified string in them. It is useful because it gives us the content of the text file that doesn't match the pattern/string. 
 
+For the last command-line option, ```-w```:
+```
+[cs15lsp23fv@ieng6-202]:folder:430$ grep -w "they" technical/911report/preface.txt
+                to detail, and readiness to share what they have learned. We have built on the work
+                the American people and their amazing resilience and courage as they fought back. We
+```
+```
+[cs15lsp23fv@ieng6-202]:folder:431$ grep -w "they" technical/911report/chapter-2.txt
+                newspaper in London to publish what they termed a fatwa issued in the name of a
+                declared war against God and his messenger, they called for the murder of any
+                military or civilian. As far as we are concerned, they are all targets." Note:
+                the last word in the names by which they are known: Nawaf al Hazmi as Hazmi, for
+                cyclonic change as they confront modernity and globalization. His rhetoric
+                Americans have wondered, "Why do 'they' hate us?" Some also ask, "What can we do to
+            Bin Ladin and al Qaeda have given answers to both these questions. To the first, they
+                they disagree. Beyond the theology lies the simple human fact that most Muslims,
+                they received little or no assistance from the United States.
+                allowed to dissolve. They established what they called a base or foundation (al
+                Ladin's deputy some years later, when they merged their organizations.
+                2001, with Bin Ladin's help they re-formed into an organization called Ansar al
+                Islamic army that he could no longer protect them and that they had to leave the
+                officers hoped for what they called "strategic depth."
+                best bet as an ally. When he arrived in Afghanistan, they controlled much of the
+                and would take assignments for him, but they did not swear bayat and maintained, or
+                they constituted a potential resource for al Qaeda.
+                they began to form a plan. Al Qaeda had begun developing the tactical expertise for
+                civilians; they are all targets in this fatwa."
+                bombs, and acquired the delivery vehicles. On August 4, they made one last casing
+```
+
+When using the command ```grep -w``` followed by a string and name of a text file, it prints out the lines that contain only the string and not the lines where the string may be part of another word. For example, the string following the command is "they," which means ```grep -w``` will not include lines that have "they're," but only "they." This is useful for when a person wants to search for lines containing a certain word that may be likely to be a part of other words that they don't care about. 
