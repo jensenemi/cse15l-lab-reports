@@ -48,3 +48,4 @@ For the second command-line option, ```-n```:
 915:                civilians; they are all targets in this fatwa."
 919:                bombs, and acquired the delivery vehicles. On August 4, they made one last casing
 ```
+When using the command ```grep -n``` followed by a string and name of a text file, it prints the line number as well as the content of the line in the specified text file that matches the given string. It is useful because it gives us information on where to find the string and the content of the line the string is in. 
