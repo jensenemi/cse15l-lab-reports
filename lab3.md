@@ -1,6 +1,7 @@
 # Lab Report 3
 
 ## Researching Commands
+### Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 For the command ```grep```, here are some alternate command-line options:
 - ```-c```
 - ```-n```
