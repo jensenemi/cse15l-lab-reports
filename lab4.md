@@ -20,3 +20,11 @@ Keys pressed: I typed ```vim ListExamples.java``` then ```<enter>```.
 Here is the code after I edited it:
 
 Keys pressed: Then, ```<down><down><down><down><down><down><down><down><down>```, ```<right>```, ```<x>```, ```<i>```, ```<2>```, ```<esc>```, ```<:wq>```, ```<enter>```.
+
+For step 8, it says to run the tests to demonstrate that they succeed now:
+
+Keys pressed: I did ```<up><up>``` and ```<enter>``` to run the tests. 
+
+For step 9, it says to commit and push the resulting change to my Github account:
+
+Keys pressed:
