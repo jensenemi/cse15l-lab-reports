@@ -6,7 +6,7 @@ Keys pressed: ```<up> <enter>```
 
 For step 5, it says to clone my fork of the repository from my Github account:
   
-Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` this link: https://github.com/jensenemi/lab7 then ```<enter>```.
+Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` this link: git@github.com:jensenemi/lab7.git then ```<enter>```.
 
 For step 6, it says to run the tests to demonstrate that they fail:
 
