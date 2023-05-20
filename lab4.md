@@ -4,13 +4,13 @@ For step 4, it says to log into ieng6. Here is a screenshot demonstrating this s
 
 ![Image](log in.png)
 
-Keys pressed: ```<up> <enter>``` 
+Keys pressed: ```<up>```, ```<enter>``` 
 
 For step 5, it says to clone my fork of the repository from my Github account:
 
 ![Image](clone.png)
   
-Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` this link: git@github.com:jensenemi/lab7.git then ```<enter>```.
+Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` this SSH link: [Lab7](git@github.com:jensenemi/lab7.git) then ```<enter>```.
 
 For step 6, it says to run the tests to demonstrate that they fail:
 
@@ -41,7 +41,7 @@ For step 9, it says to commit and push the resulting change to my Github account
 
 ![Image](commit and push.png)
 
-Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I did ```git commit -m "updated index1 to index2" and ```<enter>```. Lastly, I typed ```git push``` and ```<enter>```.
+Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I did ```git commit -m "updated index1 to index2"``` and ```<enter>```. Lastly, I typed ```git push``` and ```<enter>```.
   
 This is what my Github page looked like after it was updated:
   
