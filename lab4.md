@@ -46,4 +46,6 @@ Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I
 This is what my Github page looked like after it was updated:
   
 ![Image](github page.png)
+
+$$$$$
   
