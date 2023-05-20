@@ -10,7 +10,7 @@ For step 5, it says to clone my fork of the repository from my Github account:
 
 ![Image](clone.png)
   
-Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` this SSH link: [Lab7](git@github.com:jensenemi/lab7.git) then ```<enter>```.
+Keys pressed: I typed ```git clone``` and then copy ```Command-C``` and pasted ```Command-V``` the SSH link from this page: [Lab7](https://github.com/jensenemi/lab7) then ```<enter>```.
 
 For step 6, it says to run the tests to demonstrate that they fail:
 
@@ -46,6 +46,3 @@ Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I
 This is what my Github page looked like after it was updated:
   
 ![Image](github page.png)
-
-$$$$$
-  
