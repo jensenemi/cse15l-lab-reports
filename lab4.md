@@ -48,7 +48,7 @@ For step 9, it says to commit and push the resulting change to my Github account
 ![Image](commit and push.png)
 
 Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I did ```git commit -m "updated index1 to index2"``` and ```<enter>```. Lastly, I typed ```git push``` and ```<enter>```.
-
+Doing ```git add``` added the change I made to ```ListExamples.java``` to the working directory while ```git commit``` finalized the changes I made to the repository. Then, ```git push``` uploaded the changes to the remote repository.
   
 This is what my Github page looked like after it was updated:
   
