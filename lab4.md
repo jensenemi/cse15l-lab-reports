@@ -27,4 +27,6 @@ Keys pressed: I did ```<up><up>``` and ```<enter>``` to run the tests.
 
 For step 9, it says to commit and push the resulting change to my Github account:
 
-Keys pressed:
+Keys pressed: I typed ```git add ListExamples.java``` then ```<enter>```. Then I did ```git commit -m "updated index1 to index2" and ```<enter>```. Lastly, I typed ```git push``` and ```<enter>```.
+  
+This is what my Github page looked like after it was updated:
