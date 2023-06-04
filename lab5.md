@@ -12,8 +12,15 @@ In the timing tasks for lab 7, I'm able to do steps 4-7, but for step 8, I'm sup
 
 ![Image](notworking.png)
 
+When I run the command ```bash test.sh``` after editing the code in ```ListExamples.java```, the tests should succeed. 
+
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
+Here is a screenshot of me editing the ```ListExamples.java``` file:
+
+![Image](code.png)
+
+I'm unsure of if the problem is the way I'm editing the code in ```ListExamples.java``` or maybe there is a problem when I run the tests. 
 
 ## Part 2 - Reflection
 In our week 7 lab, we used ```vim``` to edit files which I thought was one of the more interesting things we learned. I thought it was cool how we were able to load the file into the terminal, edit the code, and run tests on it. 
