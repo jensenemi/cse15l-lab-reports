@@ -37,7 +37,7 @@ After realizing I needed to do the command ```:wq``` instead of ```:q!``` in ord
 
 ![Image](yay.png)
 
-So, the bug was using the command ```:q!``` which discarded the changes I made while the command ```:wq``` saved the changes I made in ```ListExamples.java````.
+So, the bug was using the command ```:q!``` which discarded the changes I made while the command ```:wq``` saved the changes I made in ```ListExamples.java```.
 
 SUMMARY:
 To set up the scenario, I had to log into ieng6 by typing ```ssh cs15lsp23fv@ieng6.ucsd.edu``` in the terminal and following the steps from lab 7 which included cloning my fork of the given repository. The only file needed in this scenario was ```ListExamples.java``` and the content of this file before fixing the bug was:
