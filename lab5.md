@@ -14,3 +14,4 @@ Detail the failure-inducing input and context. That might mean any or all of the
 
 
 ## Part 2 - Reflection
+In our week 7 lab, we used ```vim``` to edit files which I thought was one of the more interesting things we learned. I thought it was cool how we were able to load the file into the terminal, edit the code, and run tests on it. 
