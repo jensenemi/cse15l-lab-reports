@@ -29,6 +29,8 @@ When I did ```vimtutor```, I read about editing files and properly saving them:
 
 ![Image](vimtutor.png)
 
+Then, I used ```:wq``` to exit ```vim``` and properly save my edits:
+
 ![Image](:wq.png)
 
 After realizing I needed to do the command ```:wq``` instead of ```:q!``` in order to properly save the edits I made in ```ListExamples.java```, I ran my tests and they were successful:
