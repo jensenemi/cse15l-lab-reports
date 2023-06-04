@@ -8,7 +8,9 @@ macOS; VScode; Google Chrome
 
 Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 
+In the timing tasks for lab 7, I'm able to do steps 4-7, but for step 8, I'm supposed to show that the tests run successfully after editing the code in ```ListExamples.java```, but the tests are still failing. Here is a screenshot of the output in the terminal after I run the command ```bash test.sh``` :
 
+![Image](notworking.png)
 
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
