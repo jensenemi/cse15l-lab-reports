@@ -29,7 +29,7 @@ When I did ```vimtutor```, I read about editing files and properly saving them:
 
 ![Image](vimtutor.png)
 
-Then, I used ```:wq``` to exit ```vim``` and properly save my edits:
+Then, I used ```:wq``` to exit ```vim```:
 
 ![Image](:wq.png)
 
