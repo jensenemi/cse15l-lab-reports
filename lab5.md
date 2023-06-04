@@ -1,6 +1,7 @@
 # Lab Report 5
 ## Part 1 - Debugging Scenario
 Here is an example of a debugging scenario:
+
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 
 macOS; VScode; Google Chrome
